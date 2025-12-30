@@ -1,0 +1,5 @@
+; Startup-sequence for PT2.3F test
+echo "Starting PT2.3F replayer test..."
+DH0:test_pt23f
+echo "Test completed."
+endcli

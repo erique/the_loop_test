@@ -1,0 +1,5 @@
+; Startup-sequence for LSPlayer test
+echo "Starting LSPlayer test..."
+DH0:test_lsplayer
+echo "Test completed."
+endcli

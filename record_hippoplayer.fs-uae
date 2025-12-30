@@ -1,0 +1,36 @@
+# FS-UAE configuration for recording HippoPlayer replayer test
+# Usage: ../fs-uae/fs-uae record_hippoplayer.fs-uae
+# In FS-UAE console (F12 -> Debugger), type: audio_record hippoplayer_recording.wav
+
+[fs-uae]
+
+amiga_model = A1200/020
+chip_memory = 2048
+fast_memory = 8192
+
+kickstart_file = ../scsidev/tb/A1200.40.68.rom
+
+# Mount test directory as hard drive
+hard_drive_0 = test_hippoplayer
+hard_drive_0_label = HIPPOPLAYER
+
+# Audio settings
+audio_frequency = 44100
+audio_buffer_target_size = 2048
+stereo_separation = 100
+
+# Video settings
+window_width = 720
+window_height = 568
+fullscreen = 0
+
+# Disable input grab for easier control
+automatic_input_grab = 0
+joystick_port_1 = none
+
+# Disable floppy drive sounds
+floppy_drive_0_sounds = off
+floppy_drive_1_sounds = off
+
+# Enable console debugger for audio recording
+console_debugger = 1

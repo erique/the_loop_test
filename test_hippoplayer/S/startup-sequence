@@ -1,0 +1,5 @@
+; Startup-sequence for HippoPlayer test
+echo "Starting HippoPlayer test..."
+DH0:test_hippoplayer
+echo "Test completed."
+endcli
