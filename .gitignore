@@ -1,0 +1,18 @@
+# Audio files (large binaries - package separately)
+*.wav
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Cloned repositories (not part of this project)
+HippoPlayer/
+LSPlayer/
+pt23f/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
