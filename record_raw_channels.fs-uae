@@ -1,0 +1,33 @@
+# FS-UAE configuration for raw PAULA 4-channel capture
+# This is a general configuration file used by all replayer tests
+# Player-specific settings (hard drive, output file) are passed via command line
+
+[fs-uae]
+
+amiga_model = A1200/020
+chip_memory = 2048
+fast_memory = 8192
+
+kickstart_file = ../scsidev/tb/A1200.40.68.rom
+
+# Audio settings - 96000Hz for high-quality capture
+audio_frequency = 96000
+audio_buffer_target_size = 2048
+stereo_separation = 100
+uae_sound_interpol = none
+
+# Video settings
+window_width = 720
+window_height = 568
+fullscreen = 0
+
+# Disable input grab for easier control
+automatic_input_grab = 0
+joystick_port_1 = none
+
+# Disable floppy drive sounds
+floppy_drive_0_sounds = off
+floppy_drive_1_sounds = off
+
+# Enable console debugger
+console_debugger = 1
